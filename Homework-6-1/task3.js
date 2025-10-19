@@ -4,4 +4,7 @@ const check2 = ordered == 0 ? "Your order is empty" : check1;
 return check2;
 }
 
-console.log(checkOrder (2, 2));
+console.log(checkOrder (3, 9));
+console.log(checkOrder (10, 5));
+console.log(checkOrder (5, 0));
+
